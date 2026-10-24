@@ -154,5 +154,9 @@
  "ef_field_gemini": {
   "w": 1280,
   "h": 796
+ },
+ "ef_field_chatgpt": {
+  "w": 1280,
+  "h": 832
  }
 }
