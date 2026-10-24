@@ -1,7 +1,7 @@
 // 流用元: ima-rpg/public/sw.js
 // P12: play offline. The page is fetched fresh when online (and kept for
 // offline); built files, art and sample worlds are kept once fetched.
-const CACHE = 'element-factory-v3';
+const CACHE = 'element-factory-v4';
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', (e) => {
